@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.goldman.selenium.managerTest">
+        <methods>
+          <include name="testAddContacts"/>
+          <include name="testLogin"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testCreateManager"/>
+          <include name="testUpdateManager"/>
+          <include name="testAddAddress"/>
+        </methods>
+      </class> <!-- com.goldman.selenium.managerTest -->
+      <class name="com.goldman.selenium.CompanyTest">
+        <methods>
+          <include name="testAddAddress"/>
+          <include name="testUpdateCompany"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testCreateCompany"/>
+          <include name="testLogin"/>
+          <include name="testAddContacts"/>
+        </methods>
+      </class> <!-- com.goldman.selenium.CompanyTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
