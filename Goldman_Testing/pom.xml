@@ -6,6 +6,7 @@
     <groupId>Goldman_Testing</groupId>
     <artifactId>Selenium_Java</artifactId>
     <version>0.0.1-SNAPSHOT</version> 
+    
 
     <dependencies>
         <!-- Selenium Java -->
